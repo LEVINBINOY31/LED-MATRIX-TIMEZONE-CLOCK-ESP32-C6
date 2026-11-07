@@ -1,0 +1,20 @@
+# Arduino / build output
+build/
+*.elf
+*.bin
+*.hex
+*.map
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Never commit credentials
+secrets.h
+credentials.h
+*.env
